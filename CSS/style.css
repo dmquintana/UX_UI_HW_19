@@ -1,0 +1,155 @@
+.navigation{
+    display: flex;
+    background-color:white;
+    background-position: center;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    align-items: baseline;
+    align-content: stretch;
+}
+.logo{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    justify-content: flex-start;
+}
+.leftside{
+    display: flex;
+}
+.center{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2d72c2;
+    align-self: baseline;
+    font-size: xx-large;
+    
+}
+.rightside{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FF9F41;
+    block-size: 50px;
+    inline-size: 300px;
+    align-self:baseline-postion;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #F4ECE2;
+    justify-content:baseline;
+}
+.leftFoot .middleFoot .iconFoot .rightFoot .bottomFoot{
+    background-color: orange;
+    display: flex;
+}
+.iconFoot{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding-inline: 25px;
+    padding-block: 25px;
+    margin-inline: 50px;
+}
+.leftFoot {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    flex-direction: row;
+}
+.bottomFoot{
+    display: flex;
+}
+#fosterHero{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 100px;
+}
+#heroLeft{
+    background-color: #FBD148;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: flex-start;
+    font-display: center;
+    font-size: xx-large;
+}
+#rightHero{
+    display: flex;
+    width: 50%;
+}
+#finImage{
+    display: flex;
+}
+#becomeFoster{
+    background-color: #294F6B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    font-weight: 100;
+    color: white;
+    font-size: x-large;
+}
+.Foster{
+    display: flex;
+    flex-direction: column;
+    margin-block: 900px;
+}
+#fosterApp{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 100px;
+}
+.appNotice{
+    color: #FF9F41;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.fosterHeader{
+    color: #2D72C2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.appButton{
+    background-color: white;
+    color: #2D72C2;
+    display: flex;
+    padding: 25px;
+    border-radius: 50px;
+    justify-content: center;
+    border-color: #2D72C2 ;
+    border-width: 2px;
+    border-style:groove;
+    opacity: 4;
+}
+.rightFoot ul il{
+    justify-content: flex-end;
+    flex-direction: row;
+    color: #2D72C2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    justify-items: end;
+    justify-items: right;
+}
+#subFooter{
+    display: flex;
+    background-color: #FBD148;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
