@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
         <title>ABR Foster Page</title>
         <link rel="stylesheet" href="CSS/style.css">
     </head>
@@ -26,52 +29,75 @@
     </section>
 
     <section id="rehomeHero">
-        <h1>Re-Homing</h1>
+        <div id="heroLeft">
+        <h1 class="fosterHeader">Re-Homing</h1>
         <p>Thank you for contacting Austin Boxer Rescue. If you have a stray dog, you will need to go to the local shelter and give the owners a chance to reclaim. </p>
-        <img src="images/bigdog.png">
+        </div>
+        <div id="rightHero">
+            <img id="bigdog"> <img src="images/bigdog.png" width="1100" height="600">
+        </div>
     </section>
     
     <section id="beforeRehome">
-        <h1>Before You Re-Home</h1>
-        <p>If you are seeking emergency intake for your dog, email us at: 
-            info@austinboxerrescue.com and call the volunteer line at (512) 968-1343.</p>
-        <p>Please give detailed information about your dog and where your dog is presently located (shelter, Vet, home etc). We will also need photos of your dog, your Vet’s contact information and a completed Owner Surrender Form prior to accepting the dog into rescue.</p>
 
+    <div class="rehomeText"> 
+        <h1 class="rehomeHead">Before You Re-Home</h1>
+        <p class="rehomeBody">If you are seeking emergency intake for your dog, email us at: 
+            info@austinboxerrescue.com and call the volunteer line at (512) 968-1343.</p>
+        <p class="rehomeBody">Please give detailed information about your dog and where your dog is presently located (shelter, Vet, home etc). We will also need photos of your dog, your Vet’s contact information and a completed Owner Surrender Form prior to accepting the dog into rescue.</p>
+    </div>   
+
+    <div class=cardsection>
         <div class="card1">
             <img src="images/1circle.png">
+            <div class="container">
             <h1>Complete the online Owner Surrender Form</h1>
+            </div>
         </div>
         <div class="card2">
             <img src="images/2circle.png">
+            <div class="container">
             <h1>Submit recent photos</h1>
+            </div>
         </div>
         <div class="card3">
             <img src="images/3circle.png">
+            <div class="container">
             <h1>contact your Veterinarian and gather all records</h1>
+            </div>
         </div>
+    </div>
         <button1>OWNER SURRENDER FORM</button1>
         <button2>LEARN MORE ABOUT RE-HOMING</button2>
     </section>
 
     <section id="adoptionDay">
+        <div class= "sadDog">
         <img src="images/saddog.png">
+        </div>
+
+        <div class="adoptText">
         <h1>Adoption Day</h1>
         <p>Austin Boxer Rescue hosts an Adoption Day Event every other weekend in Austin and the second Saturday of each month in San Antonio. Information about the event is located on the banner to the right. You are required to bring your dog to at least one of these events each month. </p>
         <p>Frequent attendance will give your dog additional exposure and increase the chances of a speedy adoption. </p>
+        </div>
     </section>
 
     <section id="FAQ">
         <div class="Q1">
-            <h1>I want to re-home my dog and I can keep him/her until placed:</h1>
             <img src="images/plussign.png">
+            <div id="question1">I want to re-home my dog and I can keep him/her until placed:</div>
+            <div id="panel1">So you want to re-home your dog and you are willing to keep him/her until placed? We ask that all owners keep their dog until we are able to match him/her with a new family. </div>
         </div>
         <div class="Q2">
-            <h1>Why should I re-home my boxer through ABR? </h1>
             <img src="images/plussign.png">
+            <div id="question2">Why should I re-home my boxer through ABR? </div>
+            <div id="panel2">We are often asked why someone should re-home their dog through Austin Boxer Rescue rather than use other avenues. There are many benefits to placing your dog through rescue if you can keep your dog until he/she is placed. For questions about the process that are not answered on this webpage, please email our Intake Coordinator at os@austinboxerrescue.com.</div>
         </div>
         <div class="Q3">
-            <h1>I cannot foster my dog until placed and would like to know if Austin Boxer Rescue can accept him/her into rescue: </h1>
             <img src="images/plussign.png">
+            <div id="questions3">I cannot foster my dog until placed and would like to know if Austin Boxer Rescue can accept him/her into rescue: </div>
+            <div id="panel3">If you are seeking intake for your dog into rescue but cannot foster until placed, please send an email to os@austinboxerrescue.com explaining the circumstances in detail. Please understand that few dogs are accepted into rescue in this case. Shelter dogs at risk for euthanasia are considered first. Additionally, a monetary donation may be required to cover boarding expenses. You may also be required to have your dog fully vetted prior to acceptance into the Owner Surrender Program.</div>
         </div>
     </section>
 
